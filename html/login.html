@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+     <!-- navbar -->
+     <nav class="navbar bg">
+        <ul class="links-container">
+            <li class="link-item"><a href="index.html" class="link active">Home</a></li>
+            <li class="link-item"><a href="product.html" class="link">Product</a></li>
+            <li class="link-item"><a href="404.html" class="link">About</a></li>
+            <li class="link-item"><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+        <div class="user-interaction">
+            <div class="cart">
+                <img src="../image/cart.png" class="cart-icon" alt="">
+                 <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <img src="../image/user.png" class="user-icon" alt="">
+                <div class="user-icon-popup">
+                    <p>Login to your account</p>
+                    <a class="login" href="login.html">login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="form-section">
+        <div class="form-container">
+            <div class="form">
+                <h1 class="form-heading">Log in here</h1>
+                <input type="text" autocapitalize="off" id="name" placeholder="full-name">
+                <input type="text" autocapitalize="off" id="password" placeholder="password">      
+                <button class="submit-btn">Log in</button>
+                <a href="signup.html" class="other-form-link">Don't have a account? Create a account</a>
+            </div>
+            <img src="https://prod-cityfurniture.dotcmscloud.com/dA/da5ff64f-b3f3-49d3-ad9b-34b97c49bc9c" class="form-img" alt="">
+        </div>
+    </section>
+    <script src="../js/form.js"></script>
+    <script src="../js/common.js"></script>
+</body>
+</html>

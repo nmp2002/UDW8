@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/contact.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar bg">
+        <ul class="links-container">
+            <li class="link-item"><a href="index.html" class="link active">Home</a></li>
+            <li class="link-item"><a href="product.html" class="link">Product</a></li>
+            <li class="link-item"><a href="404.html" class="link">About</a></li>
+            <li class="link-item"><a href="contact.html" class="link">Contact</a></li>
+        </ul>
+        <div class="user-interaction">
+            <div class="cart">
+                <img src="image/cart.png" class="cart-icon" alt="">
+                <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <img src="image/user.png" class="user-icon" alt="">
+                <div class="user-icon-popup">
+                    <p>login to your account</p>
+                    <a class="login" href="login.html">login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p> If you have any problems, please contact us</p>
+        </div>
+        
+        <div class="container">
+            <div class="contactInfo">
+                <!--  -->
+                <div class="box">
+                    <div class="icon">🏢</div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Phenikaa University,<br>P. Nguyễn Trác, Yên Nghĩa,<br>Hà Đông , Hà Nội</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">☎️</div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>0562421094</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">✉️</div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>sofa@gmail.com</p>
+                    </div>
+                </div>
+            </div>    
+            <!--  -->
+            <div class="contactForm">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <!--  -->
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <script src="/__/firebase/6.1.1/firebase-firestore.js"></script>
+</body>
+</html>
