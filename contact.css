@@ -1,0 +1,111 @@
+/* CONTACT PAGE CSS OVER HERE */
+/* ************************** */
+
+section.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.contact-details .details{
+    width: 40%;
+}
+
+section.contact-details .details span,
+section.form-details form span{
+    font-size: 1rem;
+}
+
+section.form-details form h2,
+section.contact-details .details h2{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 20px 0;
+}
+
+section.contact-details .details h3{
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+
+section.contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+section.contact-details .details li i{
+    font-size: 1.2rem;
+    padding-right: 22px;
+}
+
+section.contact-details .details li p{
+    font-size: 1.2rem;
+}
+
+section.contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+section.contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+section.form-details{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 50px;
+    border: 1px solid #e1e1e1;
+}
+
+section.form-details form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.form-details form input,
+section.form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
+section.form-details form button{
+    background-color: var(--hover);
+    color: var(--light);
+}
+
+section.form-details .people div img{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+section.form-details .people div{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+section.form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.2rem;
+}
+
+section.form-details .people div span{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--dark);
+}
