@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="IMG/Marvela-logos.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Cart</title>
+</head>
+<style>
+
+
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.products-container i{
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+
+.price{
+    width: 15%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width: 10%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img{
+    width: 75px;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle{
+    width: 30%;
+}
+
+.basketTotal{
+    width: 10%;
+}
+</style>
+<body>
+
+  <!-- header -->
+  <section class="header" id="header">
+    <a class="logo" href="index.html">Furniture</a>
+    <div class="navbar">
+        <ul id="navBar">
+            <li><a class="active" href="index.html">Trang chủ</a></li>
+            <li><a href="product.html">Sản phẩm</a></li>
+            <li><a href="sale.html">Giảm giá</a></li>
+            <li><a href="blog.html">Mặt hàng mới</a></li>
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+            <li class="logout-bag" id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"><span>0</span></i></a></li>
+            <a href="#" id="close"> <i class="far fa-times"></i> </a>
+        </ul>
+    </div>
+    <div class="mobile" id="mobile">
+        <a href="cart.html"><i class="far fa-shopping-bag"> </i><span>0</span></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+ <!-- header -->
+
+
+    <section class="page-header cart-header" >
+        <h2>Giỏ hàng</h2>
+        <p>Liên hệ với chúng tôi để được những ưu đãi hấp dẫn </p>
+    </section>
+
+    <div class="products-container">
+        <div class="product-header">
+            <h5 class="product-title">Sản Phẩm</h5>
+            <h5 class="price">Giá</h5>
+            <h5 class="quantity">Số lượng</h5>
+            <h5 class="total">Tổng</h5>
+        </div>
+        <div class="products">
+
+        </div>
+    </div>
+
+    <footer class="section-p1">
+        <div class="col">
+            <a class="logo" href="#">Furniture</a>
+            <h4>Liên hệ</h4>
+            <p><strong>Địa chỉ:</strong>  P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội</p>
+            <p><strong>Số điện thoại:</strong> 0355904809</p>
+            <p><strong>Giờ làm việc:</strong> 07:00 - 21:00, Hằng ngày</p>
+            <div class="follow">
+                <h4>Theo dõi chúng tôi</h4>
+                <div class="socials">
+                   <i class="fab fa-facebook-f "></i>
+                   <i class="fab fa-pinterest-p "></i>
+                   <i class="fab fa-twitter "></i>
+                   <i class="fab fa-instagram "></i>
+                   <i class="fab fa-youtube "></i>
+                </div>
+            </div>
+        </div>
+        <div class="col1">
+            <h4>Về chúng tôi</h4>
+            <a href="#">Chúng tôi</a>
+            <a href="#">Thông tin giao hàng</a>
+            <a href="#">Chính sách bảo mật</a>
+            <a href="#">Điều khoản & Điều kiện</a>
+            <a href="#">Liên hệ</a>
+        </div>
+        <div class="col1">
+            <h4>Tài khoản của tôi</h4>
+            <a href="#">Đăng nhập</a>
+            <a href="#">Giỏ Hàng</a>
+            <a href="#">Sản phẩm yêu thích</a>
+            <a href="#">Theo dõi đơn hàng</a>
+            <a href="#">Trợ giúp</a>
+        </div>
+    </footer>
+
+
+    <script src="main1.js"></script>
+</body>
+
+</html>

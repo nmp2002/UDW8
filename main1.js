@@ -16,3 +16,26 @@ if (close){
     })
 } 
 
+//cart
+let carts = document.querySelectorAll(".cart");
+let products = [
+    {name: 'ĐÈN NGỦ', tag: 'lamp-1', price: 29.000, inCart: 0},
+    {name: 'ĐÈN NGỦ', tag: 'lamp-2', price: 50.000, inCart: 0},
+    
+]
+
+for (let i=0; i < carts.length; i++){
+    carts[i].addEventListener('click', () => {
+        console.log("added to cart");
+        cartNumbers(products[i]);
+        totalCost(products[i]);
+    })
+}
+
+function onLoadCartNumbers() {
+    let productNumbers = localStorage.getItem('cartNumbers');
+    
+    if (productNumbers) {
+        document.querySelector('.logout-bag span').textContent = productNumbers;
+    } 
+}
