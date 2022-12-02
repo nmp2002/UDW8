@@ -10,7 +10,7 @@
     --light: #ffffff;
     --primary: #465b52;
     --secondary: #e3e6f3;
-    --hover: #066306;;
+    --hover: #8d6a4e;;
 }
 
 *{
@@ -24,28 +24,29 @@ h1{
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 700;
-    color: var(--lightdark);
+    color: #8d6a4e;
 }
 
 h2{
     font-size: 2.6rem;
     line-height: 3.5rem;
-    color: var(--lightdark);
+    color: #8d6a4e;
 }
 
 h4{
     font-size: 1.5rem;
-    color: var(--lightdark);
+    color: #8d6a4e;
 }
 
 h6{
     font-weight: 700;
     font-size: 0.9rem;
+    color: #8d6a4e;
 }
 
 p{
     font-size: 1.1rem;
-    color: var(--primary);
+    color: #8d6a4e;
 }
 
 .section-p1{
@@ -181,7 +182,7 @@ section.hero h1{
 
 section.hero button{
     margin-top: 0.5rem;
-    background-image: linear-gradient(90deg, yellow, rgb(179, 179, 20), rgb(165, 165, 22) );
+    background-image: linear-gradient(90deg, rgba(255, 132, 0, 0.7), rgba(255, 132, 0, 0.7), rgb(165, 165, 22) );
     background-color: transparent;
     color: var(--hover);
     border: 0;
@@ -213,7 +214,7 @@ section.hero button a{
     text-align: center;
     padding: 20px 15px;
     box-shadow: 10px 10px 32px rgba(0,0,0,0.33);
-    border: 1px solid #cce7d0;
+    border: 1px solid #8d6a4e;
     border-radius: 4px;
     margin: 15px 0;
 }
@@ -233,26 +234,21 @@ section.hero button a{
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #066306;
-    background-color: #e9c7ce;
+    color: #fff;
+    background-color: #8d6a4e;
 }
 
 .feature .feature-box:nth-child(2) h6{
-    background-color: #c0e9a8;
+    background-color: #8d6a4e;
 }
 
 .feature .feature-box:nth-child(3) h6{
-    background-color: #a9dcf1;
+    background-color: #8d6a4e;
 }
 .feature .feature-box:nth-child(4) h6{
-    background-color: #a8b4f1;
+    background-color: #8d6a4e;
 }
-.feature .feature-box:nth-child(5) h6{
-    background-color: #f5aff5;
-}
-.feature .feature-box:nth-child(6) h6{
-    background-color: #f5c89b;
-}
+
 
 /* RANG BIRANGI COLLECTION */
 
@@ -297,13 +293,13 @@ section.hero button a{
 }
 
 .product1 .pro .desc span{
-    color: #060606;
+    color: #8d6a4e;
     font-size: 12px;
 }
 
 .product1 .pro .desc h6{
     padding-top: 7px;
-    color: var(--dark);
+    color: #8d6a4e;
     font-size: 1rem;
 }
 
@@ -324,10 +320,10 @@ section.hero button a{
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #c8ffcf;
+    background-color: #fff;
     font-weight: 500;
     color: var(--hover);
-    border: 1px solid #cce7d0;
+    border: 1px solid #8d6a4e;
     position: absolute;
     bottom: 10px;
     right: 20px;
@@ -423,60 +419,7 @@ section.banner2 .banner-box2{
 }
 
 
-/* NEWSLETTER WORK */
 
-section.newsletter{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-image: linear-gradient();
-    background-repeat: no-repeat;
-    background-position: top 25% left 30%;
-    background-color: #041e42;
-}
-
-section.newsletter h4{
-    font-size: 22px;
-    font-weight: 700;
-    color: #fff;
-}
-
-section.newsletter p{
-    font-size: 14px;
-    font-weight: 100;
-    color: #fff;
-    padding-top: 10px;
-}
-
-section.newsletter span{
-    color: #ffbd27;
-}
-
-section.newsletter .form{
-    display: flex;
-    width: 40%;
-}
-
-section.newsletter input{
-    height: 3rem;
-    padding: 0 1.25rem;
-    font-size: 15px;
-    width: 100%;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    outline: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-section.newsletter button{
-    background-color: var(--hover);
-    color: var(--light);
-    width: 8rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
 
 /* FOOTER SECTION */
 /* MOSTLY THE LAST CODE.... PHISSHH */
@@ -937,6 +880,7 @@ section.about-app .video video{
     #prodetails .single-pro-details{
         width: 100%;
     }
+  
 
     /* FOR THE BLOG PAGE */
 
