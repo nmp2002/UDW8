@@ -102,18 +102,19 @@
     <a class="logo" href="index.html">Furniture</a>
     <div class="navbar">
         <ul id="navBar">
-            <li><a class="active" href="index.html">Trang chủ</a></li>
+            <li><a href="index.html">Trang chủ</a></li>
             <li><a href="product.html">Sản phẩm</a></li>
             <li><a href="sale.html">Giảm giá</a></li>
             <li><a href="blog.html">Mặt hàng mới</a></li>
             <li><a href="about.html">Giới thiệu</a></li>
             <li><a href="contact.html">Liên hệ</a></li>
-            <li class="logout-bag" id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"><span>0</span></i></a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+            <li class="logout-bag" id="lg-bag"><a class = "active" href="cart.html"><i class="far fa-shopping-bag"><span>5</span></i></a></li>
             <a href="#" id="close"> <i class="far fa-times"></i> </a>
         </ul>
     </div>
     <div class="mobile" id="mobile">
-        <a href="cart.html"><i class="far fa-shopping-bag"> </i><span>0</span></a>
+        <a href="cart.html"><i class="far fa-shopping-bag"> </i><span>5</span></a>
         <i id="bar" class="fas fa-outdent"></i>
     </div>
 </section>
@@ -126,15 +127,100 @@
     </section>
 
     <div class="products-container">
-        <div class="product-header">
-            <h5 class="product-title">Sản Phẩm</h5>
-            <h5 class="price">Giá</h5>
-            <h5 class="quantity">Số lượng</h5>
-            <h5 class="total">Tổng</h5>
-        </div>
-        <div class="products">
-
-        </div>
+        <table>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Subtotal</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <img src="image/poster-1.png" alt="" />
+                  <div>
+                    <p>Bàn Cafe</p>
+                    <span>Giá: 50.000đ</span> <br />
+                    <a href="#">Xóa</a>
+                  </div>
+                </div>
+              </td>
+              <td><input type="number" value="1" min="1" /></td>
+              <td>50.000đ</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <img src="image/poster-2.png" alt="" />
+                  <div>
+                    <p>Ghế Sofa</p>
+                    <span>Giá : 90.000đ</span> <br />
+                    <a href="#">Xóa</a>
+                  </div>
+                </div>
+              </td>
+              <td><input type="number" value="1" min="1" /></td>
+              <td>90.000đ</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <img src="image/poster-3.png" alt="" />
+                  <div>
+                    <p>Set bàn ghế</p>
+                    <span>Giá: 60.000đ</span> <br />
+                    <a href="#">Xóa</a>
+                  </div>
+                </div>
+              </td>
+              <td><input type="number" value="1" min="1" /></td>
+              <td>60.000đ</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <img src="image/lamp-1.jpg" alt="" />
+                  <div>
+                    <p>Đèn ngủ</p>
+                    <span>Giá: 60.000đ</span> <br />
+                    <a href="#">Xóa</a>
+                  </div>
+                </div>
+              </td>
+              <td><input type="number" value="1" min="1" /></td>
+              <td>60.000đ</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <img src="image/table-3.jpeg" alt="" />
+                  <div>
+                    <p>Bàn ăn</p>
+                    <span>Giá: 60.000đ</span> <br />
+                    <a href="#">Xóa</a>
+                  </div>
+                </div>
+              </td>
+              <td><input type="number" value="1" min="1" /></td>
+              <td>60.000đ</td>
+            </tr>
+          </table>
+          <div class="total-price">
+            <table>
+              <tr>
+                <td>Tổng thể</td>
+                <td>320.000đ</td>
+              </tr>
+              <tr>
+                <td>Thuế</td>
+                <td>32.000đ</td>
+              </tr>
+              <tr>
+                <td>Tổng thể</td>
+                <td>352.000đ</td>
+              </tr>
+            </table>
+            <a href="#" class="checkout btn">Tiến hành thanh toán</a>
+          </div>
     </div>
 
     <footer class="section-p1">
